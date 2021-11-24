@@ -1,0 +1,49 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e983f789aaddb3c45333a769c0e6698808f"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98ee6588010d1fbf8d6f4dfd1ca1d1c4e8"
+    }
+  ],
+  "containerPath" : "/Users/macbook/Documents/swiftBook/block_2/HW_2.9/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/macbook/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/macbook/Library/Developer/Xcode/DerivedData/Pods-bptnkingdoybngcygfrriwjvlfpl/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/macbook/Library/Developer/Xcode/DerivedData/Pods-bptnkingdoybngcygfrriwjvlfpl/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
