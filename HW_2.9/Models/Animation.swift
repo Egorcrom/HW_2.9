@@ -25,7 +25,8 @@ extension Animation {
         
         return Animation(preset: preset?.rawValue ?? "",
                          curve: curve?.rawValue ?? "",
-                         force: force, duration: duration,
+                         force: force,
+                         duration: duration,
                          delay: delay)
     }
 }

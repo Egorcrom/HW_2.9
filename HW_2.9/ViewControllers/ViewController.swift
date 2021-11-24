@@ -44,6 +44,5 @@ class ViewController: UIViewController {
         springView.delay = animation.delay
         springView.animate()
     }
-
 }
 
