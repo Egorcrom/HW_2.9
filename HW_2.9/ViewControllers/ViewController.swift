@@ -21,20 +21,15 @@ class ViewController: UIViewController {
         updateInfo()
         button.setTitle("Start \(animation.preset)", for: .normal)
     }
-    @IBAction func buttonPressed(_ sender: Any) {
+  
+    @IBAction func buttonPressed() {
         updateInfo()
         startAnimation()
         animation = Animation.getAnimation()
         button.setTitle("Start \(animation.preset)", for: .normal)
     }
     func updateInfo() {
-        textView.text = """
-                        preset: \(animation.preset)
-                        curve: \(animation.curve)
-                        force: \(String(format: "%.2f",animation.force))
-                        duration: \(String(format: "%.2f",animation.duration))
-                        delay: \(String(format: "%.2f",animation.delay))
-                        """
+        textView.text = animation.description
     }
     private func startAnimation() {
         springView.animation = animation.preset
